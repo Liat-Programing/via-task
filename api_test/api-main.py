@@ -112,7 +112,6 @@ def main() -> None:
 
     driver.implicitly_wait(20)
     logout(driver)
-    driver.quit()
     driver.close()
 
 
